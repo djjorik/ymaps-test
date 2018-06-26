@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    margin-right: 100px;
+}
+
+.add-marker {
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.marker {
+    padding: 10px 0;
+    border-bottom: 1px solid;
+    display: flex;
+}
+
+.marker__text {
+    width: 90%;
+}
+
+.input-wrapper {
+    margin-bottom: 15px;
+}
